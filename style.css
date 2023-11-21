@@ -5,9 +5,9 @@
 
   .contenidor {
     position: relative;
-    height: 300px;
+    height: 400px;
     background-color: green;
-    width: 300px;
+    width: 400px;
   }
   
   .centrat {
@@ -17,20 +17,20 @@
     right: 0;
     bottom: 0;
     margin: auto;
-    height: 150px;
-    width: 150x;
-    background-color: red;
+    height: 100px;
+    width: 100x;
+    background-color: orange;
   }
 
 .container {
-    width: 400px;
-    height: 500px;
-    background-color: red;
+    width: 175px;
+    height: 150px;
+    background-color: orange;
 }
 
 .eyes-container{
     position: relative;
-    width: 300px;
+    width: 400px;
     height: 3em;
     border: 0.1px black solid;
 }
@@ -48,7 +48,7 @@
 
 .ojo-izq {
     position: absolute;
-    left: 75px;
+    left: 100px;
     height: 3em;
     width: 3em;
     background-color: black;
@@ -56,8 +56,23 @@
 
 .ojo-der {
     position: absolute;
-    right: 75px;
+    right: 100px;
     height: 3em;
     width: 3em;
     background-color: black;
+}
+
+.boca {
+  position: absolute;
+  top: 200;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100px;
+  width: 150px;
+  background-color: rgb(245, 228, 153);
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+  z-index: 2;
+  margin: auto;
 }
