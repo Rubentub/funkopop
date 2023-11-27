@@ -3,6 +3,17 @@
     box-sizing: border-box;
   }
 
+  .line {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 350px;
+    width: 350px;
+    border: 0.1em solid black;
+  }  
+
   .contenidor {
     position: relative;
     height: 400px;
@@ -12,13 +23,9 @@
   
   .centrat {
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
     height: 100px;
     width: 100x;
+    top: 3em;
     background-color: orange;
   }
 
@@ -37,10 +44,6 @@
 
 .eyes {
    position: absolute;
-   left: 0;
-   right: 0;
-   margin: 0 auto;
-   border-radius: 200px;
    height: 120px;
    width: 100px;
    background-color: white;
@@ -64,15 +67,99 @@
 
 .boca {
   position: absolute;
-  top: 200;
+  top: 12em;
+  margin-left: 127px;
   left: 0;
-  right: 0;
+  right: 5px;
   bottom: 0;
   height: 100px;
   width: 150px;
   background-color: rgb(245, 228, 153);
   border-bottom-left-radius: 100%;
   border-bottom-right-radius: 100%;
-  z-index: 2;
-  margin: auto;
+}
+
+.body {
+  background-color: green;
+  width: 15em;
+  left: 5em;
+  height: 11em;
+  position: relative;
+  top: 19em;
+}
+
+.linest {
+  position: absolute;
+  border: 0.1em solid rgb(15, 15, 15);
+  left: 7.5em;
+  height: 11em;
+}
+
+.line1 {
+  position: absolute;
+  border: 0.1em solid rgb(29, 28, 28);
+  top: 3em;
+  width: 15em;
+}
+
+.line2 {
+  position: absolute;
+  border: 0.1em solid rgb(27, 27, 27);
+  top: 7em;
+  width: 15em;
+}
+.caparazon {
+  background-color: orange;
+  width: 15em;
+  height: 11em;
+  left: 5em;
+  position: relative;
+  top: 10em;
+  border: 0.1em solid black;
+}
+
+.turtle-legs {
+  width: 100px;
+  height: 120px;
+  position: relative;
+}
+
+.arm {
+  width: 50px;
+  height: 80px;
+  background-color: green;
+  border-radius: 5px;
+  position: relative;
+}
+
+.arm-left {
+  width: 50px;
+  height: 80px;
+  background-color: green;
+  border-radius: 5px;
+  position: absolute;
+}
+
+.leg-right {
+  width: 50px;
+  height: 80px;
+  background-color: green;
+  border-radius: 5px;
+  position: relative;
+  top: 5em;
+  left: 6em;
+  height: 12em;
+  width: 5em;
+}
+
+.leg-left {
+  width: 50px;
+  height: 80px;
+  background-color: green;
+  border-radius: 5px;
+  position: absolute;
+  top: 35em;
+  right: 6em;
+  height: 12em;
+  width: 5em;
 }
