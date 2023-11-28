@@ -11,7 +11,6 @@
     margin: auto;
     height: 350px;
     width: 350px;
-    border: 0.1em solid black;
   }  
 
   .contenidor {
@@ -27,7 +26,15 @@
     width: 100x;
     top: 3em;
     background-color: orange;
+    animation: color-antifaz  5s linear 2s infinite alternate;
   }
+
+
+@keyframes color-antifaz {
+  33% { background-color: red; }
+  66% { background-color: rgb(67, 67, 248); }
+  100% { background-color: purple; }
+}
 
 .container {
     width: 175px;
@@ -125,19 +132,22 @@
 }
 
 .arm {
-  width: 50px;
+  width: 193px;
   height: 80px;
   background-color: green;
   border-radius: 5px;
   position: relative;
+  right: 7em;
 }
 
 .arm-left {
-  width: 50px;
+  width: 193px;
   height: 80px;
   background-color: green;
   border-radius: 5px;
   position: absolute;
+  left: 20em;
+  top: 25em;
 }
 
 .leg-right {
