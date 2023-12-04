@@ -223,6 +223,8 @@
   position: absolute;
   top: 25em;
   left: 32em;
+  animation: move 4s ease-in-out forwards;
+  animation-delay: 4s;
 }
 
 .coderas {
@@ -243,4 +245,6 @@
   position: absolute;
   top: 25em;
   left: 26em;
+  animation: move 4s ease-in-out forwards;
+  animation-delay: 4s;
 }
